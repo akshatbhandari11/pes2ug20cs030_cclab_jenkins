@@ -3,7 +3,7 @@ agent any
 stages{
 stage('Clone Repository'){
 steps{
-git branch:'main', url : 'https://github.com/Raunak8789/PES2UG20CS267_jenkins.git' }
+git branch:'main', url : 'https://github.com/akshatbhandari11/pes2ug20cs030_cclab_jenkins.git' }
 }
 stage('Build'){
 steps{
